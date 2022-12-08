@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <div class="box">
+        <h1>Formulario</h1>
+        <form action="back.php" method="get">
+            <fieldset></fieldset>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" placeholder="nome" maxlength="100" required>
+
+            <label for="idade">Idade</label>
+            <input type="number" name="" id="idade" placeholder="Digite sua idade">
+
+            <label for="email">Email</label>
+            <input type="email" name="" id="email" placeholder="Digite seu email">
+
+            <label for="senha">Senha</label>
+            <input type="password" name="" id="senha" placeholder="Senha">
+
+            <label for="date">Nascimento</label>
+            <input type="date" name="" id="date">
+
+            <label for="horario">Horario</label>
+            <input type="time" name="" id="horario">
+
+            <label for="doc">Documento</label>
+            <input type="file" name="" id="doc">
+
+            <label for=""></label>
+            <input type="checkbox" name="" id="" checked>
+            
+            <label for="">Buscar</label>
+            <input type="search" name="" id="">
+
+
+            <label for=""></label>
+            <label for="">Homem</label>
+            <input type="radio" name="s" id="s">
+            <label for="">Mulher</label>
+            <input type="radio" name="s" id="s">
+
+            <label for="cor"></label>
+            <input type="color" name="" id="">
+
+            <input type="submit" value="Enviar">
+            <!--<button>Enviar</button>-->
+            <input type="reset" value="LImpar">
+            <input type="range" name="" id="" min="1" max="10" step="1">
+            
+            <hr>
+
+            <select name="" id="">
+                <option value=""></option>
+                <option value="teste01">teste 01</option>
+                <option value="teste02">teste 02</option>
+                <option value="teste03">teste 03</option>
+            </select>
+
+            <hr>
+
+            <textarea name="" id="" cols="30" rows="10" ></textarea>
+
+            <br>
+            
+
+            <fieldset>
+                <legend>Formulario</legend>
+                <label for="">nome</label>
+                <input type="text">
+                <input type="submit" value="">
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
